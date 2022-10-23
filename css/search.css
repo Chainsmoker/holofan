@@ -12,6 +12,8 @@
   top: 50px;
   padding-top: 10px;
   pointer-events: auto;
+  display: none;
+  visibility: hidden;
 
 }
 
@@ -27,9 +29,7 @@
   font-size: 1rem;
 }
 
-/*
-#search-bar{
-  display: none;
-  visibility: hidden;
+
+#search-buttom{
+  pointer-events: auto;
 }
-*/
