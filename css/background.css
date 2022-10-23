@@ -6,3 +6,7 @@
 #music-background{
     visibility: hidden;
 }
+#model-earth
+{
+    filter: brightness(200) contrast(5);
+}
