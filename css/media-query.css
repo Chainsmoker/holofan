@@ -1,0 +1,288 @@
+/* This converts everything that's EM to PX at 1440px & above screen sizes */
+@media only screen and (min-width: 1440px) {
+  body {
+    font-size: 14.4px;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  body {
+    font-size: 12px;
+  }
+}
+
+/* ----------- iPad Pro ----------- */
+
+/* Portrait */
+@media only screen and (min-width: 1024px) and (max-height: 1366px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1.5) {
+  body {
+    font-size: 14.4px;
+  }
+}
+
+/*section focus*/
+.section:focus {
+  outline: none;
+}
+.footer_target:focus {
+  outline: none;
+}
+
+/* Links inherit parent colour unless set */
+a {
+  color: inherit;
+}
+
+/* Text Selection Colours - JS in Body */
+::selection {
+  color: #fff;
+  background-color: #1b46c2;
+}
+
+.cta_input::selection {
+  color: #1b46c2;
+  background-color: #fff;
+}
+
+/* Blending Modes on Item */
+.normal-item {
+  mix-blend-mode: normal;
+}
+.multiply-item {
+  mix-blend-mode: multiply;
+}
+.screen-item {
+  mix-blend-mode: screen;
+}
+.overlay-item {
+  mix-blend-mode: overlay;
+}
+.darken-item {
+  mix-blend-mode: darken;
+}
+.lighten-item {
+  mix-blend-mode: lighten;
+}
+.color-dodge-item {
+  mix-blend-mode: color-dodge;
+}
+.color-burn-item {
+  mix-blend-mode: color-burn;
+}
+.difference-item {
+  mix-blend-mode: difference;
+}
+.exclusion-item {
+  mix-blend-mode: exclusion;
+}
+.hue-item {
+  mix-blend-mode: hue;
+}
+.saturation-item {
+  mix-blend-mode: saturation;
+}
+.color-item {
+  mix-blend-mode: color;
+}
+.luminosity-item {
+  mix-blend-mode: luminosity;
+}
+
+/* Blending Modes on Background */
+.normal-background {
+  background-blend-mode: normal;
+}
+.multiply-background {
+  background-blend-mode: multiply;
+}
+.screen-background {
+  background-blend-mode: screen;
+}
+.overlay-background {
+  background-blend-mode: overlay;
+}
+.darken-background {
+  background-blend-mode: darken;
+}
+.lighten-background {
+  background-blend-mode: lighten;
+}
+.color-dodge-background {
+  background-blend-mode: color-dodge;
+}
+.color-burn-background {
+  background-blend-mode: color-burn;
+}
+.difference-background {
+  background-blend-mode: difference;
+}
+.exclusion-background {
+  background-blend-mode: exclusion;
+}
+.hue-background {
+  background-blend-mode: hue;
+}
+.saturation-background {
+  background-blend-mode: saturation;
+}
+.color-background {
+  background-blend-mode: color;
+}
+.luminosity-background {
+  background-blend-mode: luminosity;
+}
+
+/* Elipsis cut off text. Must be a paragraph text, change the 6 to desired number of lines */
+.my-class {
+  display: -webkit-box;
+  -webkit-line-clamp: 6;
+  -webkit-box-orient: vertical;
+}
+
+/* sets pointer events */
+.no-click {
+  pointer-events: none;
+}
+.dot-group {
+  pointer-events: none;
+}
+.sherpa1-wrap {
+  pointer-events: none;
+}
+.edge-wrapper {
+  pointer-events: none;
+}
+.click-allowed {
+  pointer-events: auto;
+}
+.hud_display {
+  pointer-events: none;
+}
+.hud_sidenav {
+  pointer-events: auto;
+}
+.sidenav_circle--link {
+  pointer-events: auto;
+}
+.nav {
+  pointer-events: none;
+}
+.brand-link--wrap {
+  pointer-events: auto;
+}
+.nav_right--wrap {
+  pointer-events: auto;
+}
+.nav_menu--new {
+  pointer-events: auto;
+}
+.prog_link {
+  pointer-events: auto;
+}
+.cursor {
+  pointer-events: none;
+}
+.page-trans-wrap {
+  pointer-events: none;
+}
+.nav_underlay {
+  pointer-events: none;
+}
+.n_sub--btn--txt {
+  pointer-events: none;
+}
+
+/*.btn_wrap:hover .btn_circle {
+            left: auto;
+            right: 0%;
+            }*/
+
+/* PRELOADER CSS (displays live but not on editor)
+            .preloader {display: flex;}
+            .w-editor .preloader {display: none;}
+            */
+
+/*Portfolio + Products CLIP */
+.port_item--inner {
+  clip-path: polygon(100% 100%, 100% 30%, 88% 0, 0 0, 0 70%, 12% 100%);
+}
+
+.prod_item--inner,
+.prod_item,
+.team_item--outer,
+.team_item--inner,
+.pag_btn {
+  clip-path: polygon(0 0, 88% 0, 100% 12%, 100% 100%, 12% 100%, 0 88%);
+}
+
+.cta_btn,
+.cta_input,
+.cta_input--wrap {
+  clip-path: polygon(
+    83% 100%,
+    86% 98%,
+    99% 78%,
+    100% 71%,
+    100% 8%,
+    99% 4%,
+    98% 1%,
+    94% 0,
+    4% 0,
+    2% 2%,
+    1% 5%,
+    0 8%,
+    0 92%,
+    1% 97%,
+    2% 98%,
+    4% 100%
+  );
+}
+
+.cta_content--wrap {
+  clip-path: polygon(2% 0, 100% 0, 100% 90%, 98% 100%, 0 100%, 0 10%);
+}
+
+/* Sidenav STATES */
+
+.w--current .sidenav_circle {
+  background-color: #fff;
+  box-shadow: 0 0 10px 0 #fff;
+}
+
+.w--current .sidenav_track--wrap {
+  min-height: 50px;
+}
+
+.prin_news--txt-l {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.port_item--inner:hover {
+  background-color: #fff;
+  transition: background-color 0.35s;
+}
+
+.port_item--inner:hover > .port_item--img {
+  filter: invert(100%);
+  transition: filter 0.35s;
+}
+
+@media screen and (max-width: 768px) {
+  .port_list-click :nth-child(n + 15) {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1100px) {
+  .port_list {
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr !important;
+  }
+}
+
+.viewport,
+.hud_display,
+.nav_menu--new {
+  height: calc(var(--vh, 1vh) * 100) !important;
+}

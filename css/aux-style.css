@@ -1,0 +1,36 @@
+body {
+  cursor: none;
+  overflow-x: hidden;
+}
+
+a {
+  cursor: none !important;
+}
+
+/*hide webflow badge*/
+.w-webflow-badge {
+  display: none !important;
+}
+
+/*preloader and editor*/
+.preloader {
+  display: flex;
+}
+.w-editor .preloader {
+  display: none;
+}
+.w-editor body {
+  cursor: auto !important;
+}
+
+.nav_menu--new {
+  overflow: hidden;
+}
+
+/*cursor*/
+body:hover .cursor {
+  opacity: 1;
+}
+.cursor {
+  pointer-events: none;
+}
