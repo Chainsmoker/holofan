@@ -44,26 +44,22 @@
     <script async src="https://cdn.jsdelivr.net/npm/@finsweet/attributes-cmsfilter@1/cmsfilter.js"></script>
     <script async src="https://cdn.jsdelivr.net/npm/@finsweet/attributes-cmsload@1/cmsload.js"></script>
     <script src="js/cart.js"></script>
-    <script src="js/audio.js"></script>
+    <script src="js/search.js"></script>
     <!--=============== Scripts ===============-->
     
   </head>
   <body>
     <div id="hero"></div>
-    <div class="global">
-      <div class="css w-embed">
-      </div>
-    </div>
     <div data-animation="default" data-collapse="all" data-duration="200" data-easing="ease-out-expo" data-easing2="ease-out-expo" data-no-scroll="1" role="banner" class="nav w-nav">
       <div class="container is--nav">
+        <div id="search-bar" class="search-container">
+          <form action="" method="get">
+            <input class="search" type="text" name="search-value" placeholder="Search..." >
+          </form>
+        </div>
         <div class="nav_base">
-          <div class="brand_icons--left">
+          <div id="search-buttom" class="brand_icons--left">
             <img src="media/search-icon.svg" alt="">
-            <div class="search-container">
-              <form action="" method="get">
-                <input class="search" name="search-value" placeholder="Search..." type="text">
-              </form>
-            </div>
           </div>
           <div class="brand-link--wrap">
             <a href="/" aria-current="page" >
@@ -391,6 +387,10 @@
         <div class="nav_menu--half"></div>
       </div>
       <div class="nav_underlay"></div>
+    </div>
+    <div class="global">
+      <div class="css w-embed">
+      </div>
     </div>
     <div class="nav_soc--list w-dyn-list">
       <div role="list" class="soc_nav--list is--main w-dyn-items">
