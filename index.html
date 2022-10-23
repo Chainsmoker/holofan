@@ -35,11 +35,16 @@
     <link rel="stylesheet" href="./css/media-query.css">
     <link rel="stylesheet" href="./css/aux-style.css">
     <link rel="stylesheet" href="./css/background.css">
+    <link rel="stylesheet" href="./css/cart.css">
+    <link rel="stylesheet" href="./css/search.css">
+
     <!--=============== Styles ===============-->
 
     <!--=============== Scripts ===============-->
     <script async src="https://cdn.jsdelivr.net/npm/@finsweet/attributes-cmsfilter@1/cmsfilter.js"></script>
     <script async src="https://cdn.jsdelivr.net/npm/@finsweet/attributes-cmsload@1/cmsload.js"></script>
+    <script src="js/cart.js"></script>
+    <script src="js/audio.js"></script>
     <!--=============== Scripts ===============-->
     
   </head>
@@ -54,17 +59,90 @@
         <div class="nav_base">
           <div class="brand_icons--left">
             <img src="media/search-icon.svg" alt="">
+            <div class="search-container">
+              <form action="" method="get">
+                <input class="search" name="search-value" placeholder="Search..." type="text">
+              </form>
+            </div>
           </div>
           <div class="brand-link--wrap">
-            <a href="/" aria-current="page" class="brand_wrap">
-              <div class="brand_img">
-                <img src="media/logo.webp" loading="lazy" alt="" class="brand_img--img"/>
+            <a href="/" aria-current="page" >
+              <div>
+                <img src="media/logo.webp" loading="lazy" alt="" />
               </div>
             </a>
           </div>
           <div class="nav_right--wrap">
             <div class="nav_right--shop">
-              <img src="media/cart-shop-icon.svg" alt="">
+              <img id="cart" src="media/cart-shop-icon.svg" alt="">
+              <div class="cart-shop--container">
+                <div class="cart-shop-head">
+                  <h1 class="cart-title">Shopping Cart</h1>
+                  <a class="cart-close--button" id="close-cart" href="#">Close Cart</a>
+                </div>
+                <div class="cart-shop--items">
+                  <div class="cart-shop--item">
+                    <div class="product-icon">
+                      <img src="https://cdn.shopify.com/s/files/1/0522/6115/9078/files/Butterfly_540x.gif" alt="">
+                    </div>
+                    <div class="product-info">
+                      <div class="product-name">
+                        <h2>3D Hologram</h2>
+                      </div>
+                      <div class="product-total">
+                        Total: 5$
+                      </div>
+                    </div>
+                    <div class="product-cant">
+                      <h2>x12</h2>
+                    </div>
+                    <div class="cart-shop--delete">
+                      <img src="media/trash-icon.svg" alt="">
+                    </div>
+                  </div>
+                  <div class="cart-shop--item">
+                    <div class="product-icon">
+                      <img src="https://cdn.shopify.com/s/files/1/0522/6115/9078/files/hummingbird_540x.gif?v=1617236797" alt="">
+                    </div>
+                    <div class="product-info">
+                      <div class="product-name">
+                        <h2>3D Hologram</h2>
+                      </div>
+                      <div class="product-total">
+                        Total: 5$
+                      </div>
+                    </div>
+                    <div class="product-cant">
+                      <h2>x12</h2>
+                    </div>
+                    <div class="cart-shop--delete">
+                      <img src="media/trash-icon.svg" alt="">
+                    </div>
+                  </div>
+                  <div class="cart-shop--item">
+                    <div class="product-icon">
+                      <img src="https://cdn.shopify.com/s/files/1/0522/6115/9078/files/Butterfly_540x.gif" alt="">
+                    </div>
+                    <div class="product-info">
+                      <div class="product-name">
+                        <h2>3D Hologram</h2>
+                      </div>
+                      <div class="product-total">
+                        Total: 5$
+                      </div>
+                    </div>
+                    <div class="product-cant">
+                      <h2>x12</h2>
+                    </div>
+                    <div class="cart-shop--delete">
+                      <img src="media/trash-icon.svg" alt="">
+                    </div>
+                  </div>
+                </div>
+                <div class="cart-shop--footer">
+                  <button class="cart-buy">Buy Products</button>
+                </div>
+              </div>
             </div>
             <div id="menu-toggle" data-w-id="4f27fc19-d000-61bf-0991-64724bb1f50d" class="menu_btn hov__on w-nav-button">
               <div class="menu_line--wrap">
@@ -342,6 +420,9 @@
 
     <!-- Audio -->
     <div class="global_music--container">
+      <audio controls>
+        <source src="https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview122/v4/5f/ee/a6/5feea6b0-d1cf-32eb-e56d-4d04062fd541/mzaf_6516216595075074768.plus.aac.p.m4a" type="audio/mpeg">
+      </audio>
       <img src="media/music-icon.svg" alt="">
     </div>
     <!-- Audio -->
@@ -541,6 +622,7 @@
           <div class="container is--hero">
             <div class="hero_content--wrap">
               <h1 class="hero_h1">3D VISUALS REIMAGINED</h1>
+              <br>
               <div
                 style="filter: blur(5px); opacity: 0"
                 class="hero_text--wrap"
@@ -582,13 +664,13 @@
             </div>
             <div class="elrond_para--wrap">
               <div class="overflow-hidden">
-                <p class="paragraph fade1">
+                <p class="paragraph fade1" style="font-size: 1.5rem">
                   Stay ahead of time and experience a completely new way of seeing visuals. Upload your favorite videos/images on Holofan and watch it come to life. Get ready to explore the amazing world of unparalleled visual experience with Holofan.<br>
                 </p>
               </div>
               <div class="divider"></div>
               <div class="overflow-hidden">
-                <p class="paragraph fade1">
+                <p class="paragraph fade1" style="font-size: 1.5rem">
                   Create, display & manage awe-inspiring holographic visuals that appear to be floating in mid-air with the touch of a button.<br>
                 </p>
               </div>
@@ -607,7 +689,6 @@
             </a>
           </div>
         </div>
-        <div class="s_block is--half"></div>
         <div id="s_id--1" class="s__target"></div>
       </section>
       <section id="portfolio" data-w-id="bea54b05-010c-93c7-c4d4-587d6f8266af" class="section is--portfolio" >
@@ -820,14 +901,14 @@
           </div>
         </div>
         <div id="s_id--1" class="s__target"></div>
-        <div class="s_block is--half"></div>
       </section>
       <section id="team" data-w-id="c511ff85-1fe7-df9a-e25f-66e25f2fb570" class="section is--team">
         <div class="container is--team">
           <div class="prod_content">
             <div class="prod_text--wrap">
               <div class="overflow-hidden">
-                <h3 class="body_heading fade1">HOLOFAN is revolutionizing the way consumers, businesses, and artists think about visual effects. Find out how our innovation can work for you.</h3>
+                <h1>Why Holofan?</h1>
+                <h3 class="body_heading fade1"">HOLOFAN is revolutionizing the way consumers, businesses, and artists think about visual effects. Find out how our innovation can work for you.</h3>
               </div>
               <div class="divider _2em"></div>
             </div>
@@ -890,34 +971,6 @@
                       </div>
                     </div>
                   </div>
-                  <div data-w-id="eb61d4b8-5f48-c88e-b748-d470b616cbca" role="listitem" class="team_item w-dyn-item">
-                    <div class="team_item--outer is--softfade">
-                      <div class="team_item--inner">
-                        <img src="https://cdn.shopify.com/s/files/1/0522/6115/9078/files/img-16_720x.jpg" loading="lazy" alt="DANILO" class="team_img">
-                        <div class="team_grad"></div>
-                        <div style="opacity: 0; filter: blur(5px)" class="team_bio" >
-                          <div>
-                            FUTURE OF 3D TECHNOLOGY
-                          </div>
-                        </div>
-                        <div class="team_soc--wrap">
-                          <a href="https://twitter.com/daniloscarlucci" class="team_soc--link is--tw w-inline-block"></a>
-                          <a href="https://www.linkedin.com/in/daniloscarlucci/" class="team_soc--link is--lin w-inline-block"></a><a href="https://twitter.com/daniloscarlucci" class="team_soc--link is--git w-inline-block w-condition-invisible"></a>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="team_desc--wrap">
-                      <div class="team_line--wrap is--softfade">
-                        <div class="line_c is--2"></div>
-                        <div class="line_c is--1"></div>
-                      </div>
-                      <div class="overflow-hidden">
-                        <div class="team_desc--text fade1">
-                          <div class="team_name">THE HOLOGRAPHIC ERA</div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
                 </div>
               </div>
               <div class="c_holder">
@@ -930,7 +983,6 @@
           </div>
         </div>
         <div id="s_id--1" class="s__target"></div>
-        <div class="s_block is--half"></div>
       </section>
       <section id="elrond" data-w-id="783a2ea0-ac9c-b4f9-d85a-83f99300d269" class="section is--elrond">
         <div class="container is--elrond">
@@ -942,7 +994,7 @@
             </div>
             <div class="elrond_para--wrap">
               <div class="overflow-hidden">
-                <p class="paragraph fade1">
+                <p class="paragraph fade1" style="font-size: 1.5rem">
                   Advertising, at its core, is about capturing the attention of a passerby. Holofan brings your product to life, drawing customers in.<br>
                 </p>
               </div>
@@ -965,7 +1017,6 @@
             </div>
           </div>
         </div>
-        <div class="s_block is--half"></div>
         <div id="s_id--1" class="s__target"></div>
       </section>
       <section
@@ -983,7 +1034,7 @@
               </div>
               <div class="careers_para--wrap">
                 <div class="overflow-hidden">
-                  <p class="paragraph is--careers fade1">
+                  <p class="paragraph is--careers fade1" style="font-size: 1.5rem">
                     No more white boards. No more screens. Want people to really notice your visual charts, graphs, and images? Elevate your presentation and mesmerize your audience with a breathtaking visual experience.<br>
                   </p>
                 </div>
@@ -1022,7 +1073,6 @@
             </div>
           </div>
         </div>
-        <div class="s_block is--half"></div>
         <div id="s_id--1" class="s__target"></div>
       </section>
       <section
@@ -1046,7 +1096,20 @@
                   data-name="input-email-sub"
                   method="get"
                   class="subscribe-form-flex is--2"
+                  style="display: flex; flex-direction: column; gap:20px;"
                 >
+                  <div class="cta_input--wrap-2">
+                    <input
+                      type="text"
+                      class="cta_input-2 w-input"
+                      maxlength="256"
+                      name="Subscriber-Name"
+                      data-name="Subscriber Name"
+                      placeholder="Enter your Name..."
+                      id="input-email-sub"
+                      required=""
+                    />
+                  </div>
                   <div class="cta_input--wrap-2">
                     <input
                       type="email"
@@ -1059,15 +1122,30 @@
                       required=""
                     />
                   </div>
+                    <div class="cta_input--wrap-2">
+                      <textarea
+                      cols="30" 
+                      rows="10" 
+                      type="text"
+                      class="cta_input-2 w-input"
+                      maxlength="256"
+                      name="Subscriber-Message"
+                      data-name="Subscriber Message"
+                      placeholder="Enter your Message..."
+                      id="input-email-sub"
+                      style="resize: none;"
+                      required=""></textarea>
+                    </div>
                   <input
                     type="submit"
-                    value="Sign Up"
+                    value="Send"
                     data-wait="Please wait..."
                     class="cta_btn hov__on w-button"
+                    style="width: 150px; font-size: 1.2rem"
                   />
                 </form>
                 <div class="success-message-2 w-form-done">
-                  <div>Thank you! Your submission has been received!</div>
+                  <div>Thank you! Your message has been received!</div>
                 </div>
                 <div class="error-message w-form-fail">
                   <div>
@@ -1079,6 +1157,33 @@
           </div>
         </div>
         <div id="newsletter" class="footer_target"></div>
+      </section>
+      <section class="testimonials">
+        <div class="testimonials-container">
+          <div class="testimonials-title">
+            WHAT HOLOFAN USERS ARE SAYING
+          </div>
+          <div class="testimonials-items">
+            <div class="testimonials-item">
+              I'm a small business owner. Ever since displaying Holofan in my store front, I've noticed at least 2x more people walking into my store. The holographic effects is an attention grabber and that helped tremendously in our revenue!
+              <div class="testimonials-autor">
+                <h5>Michael W</h5>
+              </div>
+            </div>
+            <div class="testimonials-item">
+              WOW! The visual effects from holofan is out of this world. I've literally never seen anything like it. The 3D effects really make it seem like a hologram is there. All of my friends are amazed that something like this exists.
+              <div class="testimonials-autor">
+                <h5>Kevin T.</h5>
+              </div>
+            </div>
+            <div class="testimonials-item">
+              <img src="media/testimonials-icon.svg" alt=""> Love how easy it is to use! I'm not very tech savvy so I thought it was going to be difficult to create the holographic effect. But their App makes it so simple. Just upload and the App does everything for you. They also provided me with hundreds of 3D content to use.
+              <div class="testimonials-autor">
+                <h5>Michelle P.</h5>
+              </div>
+            </div>
+          </div>
+        </div>
       </section>
       <div id="top" class="top_target"></div>
     </div>
@@ -1242,6 +1347,9 @@
           $("#sm--txt").text($("#sm--txt").text() == "More" ? "Less" : "More");
         });
       });
+    </script>
+    <script>
+      AOS.init();
     </script>
 
 
