@@ -7236,13 +7236,19 @@ blockquote {
 .global_music--container {
   height: 100px;
   position: fixed;
-  right: 10px;
-  bottom: -5px;
-  line-height: 100px;
+  right: 20px;
+  bottom: -40px;
   z-index: 20;
+
+  /*
+  line-height: 100px;
   display: flex;
   align-items: center;
   gap: 20px;
+  */
+}
+.global_music--container img {
+  height: 35px;
 }
 
 .testimonials {

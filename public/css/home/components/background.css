@@ -10,10 +10,6 @@
     height: inherit;
 }
 
-#music-background {
-    visibility: hidden;
-}
-
 #model-earth {
     filter:
         hue-rotate(45deg)
