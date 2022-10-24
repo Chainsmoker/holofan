@@ -352,8 +352,9 @@
 
   <!-- Audio -->
   <div class="global_music--container">
-    <audio id="music-background" autoplay loop>
-      <source src="public/other/effects.ogg" type="audio/ogg">
+    <script src="public/js/home/components/handleFirstPlay.js"></script>
+    <audio id="music-background" autoplay loop onplay="handleFirstPlay(event)">
+      <source src="public/other/effects.ogg">
     </audio>
     <img style="filter: invert();"
       src="https://img.icons8.com/external-kiranshastry-solid-kiranshastry/64/000000/external-music-multimedia-kiranshastry-solid-kiranshastry-1.png"
