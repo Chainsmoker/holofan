@@ -1188,18 +1188,19 @@
     </div>
     
     <div id="viewport" class="viewport">
-      <div id="hologram"> </div>
-      
+    <div id="hologram"> </div>
+    <div id="model-conteiner">
       <model-viewer id="model-earth" class="holograms" src="models/earth_hologram.glb"
-        exposure="0.5"
-        camera-controls
-        disable-zoom
-        disable-tap
-        shadow-intensity="0"
-        autoplay shadow-softness="0"
-        orbit-sensitivity="0.3">
-      </model-viewer>
-
+      exposure="0.5"
+      camera-controls
+      disable-zoom
+      disable-tap
+      shadow-intensity="0"
+      autoplay shadow-softness="0"
+      power-preference="low-power"
+      orbit-sensitivity="0.3">
+    </model-viewer>
+    </div>
     <div class="page-trans-wrap no-click">
     <div class="page-trans-out"></div>
     </div>
@@ -1353,28 +1354,32 @@
      // AOS.init();
     </script>
 
+<!--Hologram model 3d-->
+<script src="js/model-viewer.js"></script>
+<script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+
 <!--BARRA DE BUSQUEDA-->
    <script src="js/search.js"></script>
    <!-- Hologram config -->
-   <script src="js/three.min.js"></script>
-   
+   <script src="js/three.min.js"></script> 
    <script src="js/canvasrenderer.js"></script>
-    <script src='https://cdnjs.cloudflare.com/ajax/libs/dat-gui/0.5.1/dat.gui.min.js'></script>
-    <script src='https://unpkg.com/three@0.83.0/examples/js/shaders/CopyShader.js'></script>
-    <script src='https://unpkg.com/three@0.83.0/examples/js/postprocessing/EffectComposer.js'></script>
-    <script src='https://unpkg.com/three@0.83.0/examples/js/postprocessing/RenderPass.js'></script>
-    <script src='https://unpkg.com/three@0.83.0/examples/js/postprocessing/ShaderPass.js'></script>
-    <script src='https://unpkg.com/three@0.83.0/examples/js/shaders/HorizontalBlurShader.js'></script>
-    <script src='https://unpkg.com/three@0.83.0/examples/js/shaders/VerticalBlurShader.js'></script>
+   <script src='https://unpkg.com/three@0.83.0/examples/js/postprocessing/EffectComposer.js'></script>
+   <script src='https://unpkg.com/three@0.83.0/examples/js/postprocessing/RenderPass.js'></script>
+   <script src='https://unpkg.com/three@0.83.0/examples/js/postprocessing/ShaderPass.js'></script>
+   <script src='https://unpkg.com/three@0.83.0/examples/js/shaders/CopyShader.js'></script>
     <script src='https://unpkg.com/three@0.83.0/examples/js/shaders/FilmShader.js'></script>
-    <script src='https://unpkg.com/three@0.83.0/examples/js/shaders/LuminosityHighPassShader.js'></script>
-    <script src='https://unpkg.com/three@0.83.0/examples/js/postprocessing/UnrealBloomPass.js'></script>
-    <script src='https://cdn.rawgit.com/felixturner/bad-tv-shader/master/BadTVShader.js'></script>
     <script src="js/smoke.js"></script>
     
-  
-   <!--Hologram model 3d-->
-   <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+    <!--
+      
+      <script src='https://unpkg.com/three@0.83.0/examples/js/shaders/HorizontalBlurShader.js'></script>
+      <script src='https://unpkg.com/three@0.83.0/examples/js/shaders/VerticalBlurShader.js'></script>
+      <script src='https://unpkg.com/three@0.83.0/examples/js/shaders/LuminosityHighPassShader.js'></script>
+      <script src='https://unpkg.com/three@0.83.0/examples/js/postprocessing/UnrealBloomPass.js'></script>
+      <script src='https://cdn.rawgit.com/felixturner/bad-tv-shader/master/BadTVShader.js'></script>
+      <script src='https://cdnjs.cloudflare.com/ajax/libs/dat-gui/0.5.1/dat.gui.min.js'></script>
+
+  -->
 
   </body>
 </html>
