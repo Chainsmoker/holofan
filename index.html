@@ -30,20 +30,19 @@
     <link rel="shortcut icon" href="media/favicon.png">
 
     <!--=============== Styles ===============-->
-    <link rel="stylesheet" href="./css/main.css">
-    <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="./css/media-query.css">
-    <link rel="stylesheet" href="./css/aux-style.css">
-    <link rel="stylesheet" href="./css/background.css">
-    <link rel="stylesheet" href="./css/cart.css">
-    <link rel="stylesheet" href="./css/search.css">
+    <link rel="stylesheet" href="./public/css/home/main.css">
+    <link rel="stylesheet" href="./public/css/home/style.css">
+    <link rel="stylesheet" href="./public/css/home/media-query.css">
+    <link rel="stylesheet" href="./public/css/home/aux-style.css">
 
+    <link rel="stylesheet" href="./public/css/home/components/background.css">
+    <link rel="stylesheet" href="./public/css/home/components/cart.css">
+    <link rel="stylesheet" href="./public/css/home/components/search.css">
+    <link rel="stylesheet" href="./public/css/home/components/testimonials.css">
     <!--=============== Styles ===============-->
 
     <!--=============== Scripts ===============-->
-    <script async src="https://cdn.jsdelivr.net/npm/@finsweet/attributes-cmsfilter@1/cmsfilter.js"></script>
-    <script async src="https://cdn.jsdelivr.net/npm/@finsweet/attributes-cmsload@1/cmsload.js"></script>
-    <script src="js/cart.js"></script>
+    <script src="public/js/home/components/cart.js"></script>
     <!--=============== Scripts ===============-->
     
   </head>
@@ -58,18 +57,18 @@
         </div>
         <div class="nav_base">
           <div id="search-buttom" class="brand_icons--left">
-            <img src="media/search-icon.svg" alt="">
+            <img src="public/icons/search-icon.svg" alt="">
           </div>
           <div class="brand-link--wrap">
             <a href="/" aria-current="page" >
               <div>
-                <img src="media/logo.webp" loading="lazy" alt="" />
+                <img src="public/images/logo.webp" loading="lazy" alt="" />
               </div>
             </a>
           </div>
           <div class="nav_right--wrap">
             <div class="nav_right--shop">
-              <img id="cart" src="media/cart-shop-icon.svg" alt="">
+              <img id="cart" src="public/icons/cart-shop-icon.svg" alt="">
               <div class="cart-shop--container">
                 <div class="cart-shop-head">
                   <h1 class="cart-title">Shopping Cart</h1>
@@ -92,7 +91,7 @@
                       <h2>x12</h2>
                     </div>
                     <div class="cart-shop--delete">
-                      <img src="media/trash-icon.svg" alt="">
+                      <img src="public/icons/trash-icon.svg" alt="">
                     </div>
                   </div>
                   <div class="cart-shop--item">
@@ -111,7 +110,7 @@
                       <h2>x12</h2>
                     </div>
                     <div class="cart-shop--delete">
-                      <img src="media/trash-icon.svg" alt="">
+                      <img src="public/icons/trash-icon.svg" alt="">
                     </div>
                   </div>
                   <div class="cart-shop--item">
@@ -130,7 +129,7 @@
                       <h2>x12</h2>
                     </div>
                     <div class="cart-shop--delete">
-                      <img src="media/trash-icon.svg" alt="">
+                      <img src="public/icons/trash-icon.svg" alt="">
                     </div>
                   </div>
                 </div>
@@ -430,7 +429,7 @@
     <div class="preloader">
       <div id="w-node-ba7dbc5e-fca8-9a02-8978-d0f9f4f65a62-f4f65a61" class="preloader_img--wrap" >
         <div class="p_img" data-w-id="a0060101-d035-f382-d8ac-b5325d1f0029" data-animation-type="lottie" data-loop="1" data-direction="-1" data-autoplay="1" data-is-ix2-target="0" data-renderer="svg" data-default-duration="7.974640983160862" data-duration="3">
-          <img src="media/logo.webp">
+          <img src="public/images/logo.webp">
         </div>
       </div>
       
@@ -635,7 +634,7 @@
                 data-w-id="f14d9b85-7459-c4ec-f877-ba556b923efe"
                 style="filter: blur(5px); opacity: 0"
                 class="btn_wrap is--h is--1 w-inline-block"
-                ><div class="btn_txt is--h">Buy now & save</div>
+                ><div class="btn_txt is--h w-pagination-next pag_btn is--next">Buy now & save</div>
                 <div class="btn_circle is--2 is--h">
                   <div class="c_holder">
                     <div class="c_block1 is--tl"></div>
@@ -663,13 +662,13 @@
             </div>
             <div class="elrond_para--wrap">
               <div class="overflow-hidden">
-                <p class="paragraph fade1" style="font-size: 1.5rem">
+                <p class="paragraph fade1" style="font-size: 1.2rem">
                   Stay ahead of time and experience a completely new way of seeing visuals. Upload your favorite videos/images on Holofan and watch it come to life. Get ready to explore the amazing world of unparalleled visual experience with Holofan.<br>
                 </p>
               </div>
               <div class="divider"></div>
               <div class="overflow-hidden">
-                <p class="paragraph fade1" style="font-size: 1.5rem">
+                <p class="paragraph fade1" style="font-size: 1.2rem">
                   Create, display & manage awe-inspiring holographic visuals that appear to be floating in mid-air with the touch of a button.<br>
                 </p>
               </div>
@@ -692,12 +691,12 @@
       </section>
       <section id="portfolio" data-w-id="bea54b05-010c-93c7-c4d4-587d6f8266af" class="section is--portfolio" >
         <div class="container is--port">
-          <div class="p_heading--wrap">
-            <div class="overflow-hidden">
+          <div class="p_heading--wrap" style="width: 100%;">
+            <div class="heading_respo">
               <h3 class="body_heading">AS SEEN ON:</h3>
             </div>
           </div>
-          <div class="port_corner--wrap is--dt">
+          <div class="port_corner--wrap is--dt" style="margin: 0 auto !important">
             <div class="port_wrap w-dyn-list">
               <div fs-cmsfilter-showquery="true" fs-cmsfilter-element="list" fs-cmsfilter-easing="ease-out" fs-cmsload-element="list" fs-cmsload-mode="load-under" role="list" class="port_list port_list-click w-dyn-items">
                 <div data-w-id="36e721c3-3e91-63cd-3321-cd2ddc993bca" role="listitem" class="port_item--wrap w-dyn-item">
@@ -879,7 +878,7 @@
                             </div>
                           </div>
                         </a>
-                        <a data-w-id="c525c4c3-bced-36b8-2a34-2a9373982c92" href="https://egld.community/" class="btn_wrap is--small w-inline-block"><div class="btn_txt is--small">HYPER-REALISTIC</div>
+                        <a data-w-id="c525c4c3-bced-36b8-2a34-2a9373982c92" href="" class="btn_wrap is--small w-inline-block"><div class="btn_txt is--small">HYPER-REALISTIC</div>
                           <img src="https://global-uploads.webflow.com/6218b09ec1cd76c58f838521/6218f670693ffdbc6901e965_mstar%20arrow.svg" loading="lazy" alt="arrow" class="btn_arrow">
                           <div class="btn_circle is--2">
                             <div class="c_holder">
@@ -907,7 +906,7 @@
             <div class="prod_text--wrap">
               <div class="overflow-hidden">
                 <h1>Why Holofan?</h1>
-                <h3 class="body_heading fade1"">HOLOFAN is revolutionizing the way consumers, businesses, and artists think about visual effects. Find out how our innovation can work for you.</h3>
+                <h3 style="font-size: 1.1rem;" class="body_heading fade1">HOLOFAN is revolutionizing the way consumers, businesses, and artists think about visual effects. Find out how our innovation can work for you.</h3>
               </div>
               <div class="divider _2em"></div>
             </div>
@@ -925,8 +924,9 @@
                           </div>
                         </div>
                         <div class="team_soc--wrap">
-                          <a href="https://twitter.com/daniloscarlucci" class="team_soc--link is--tw w-inline-block"></a>
-                          <a href="https://www.linkedin.com/in/daniloscarlucci/" class="team_soc--link is--lin w-inline-block"></a><a href="https://twitter.com/daniloscarlucci" class="team_soc--link is--git w-inline-block w-condition-invisible"></a>
+                          <a href="" class="team_soc--link is--tw w-inline-block"></a>
+                          <a href="h" class="team_soc--link is--lin w-inline-block"></a>
+                          <a href="" class="team_soc--link is--git w-inline-block w-condition-invisible"></a>
                         </div>
                       </div>
                     </div>
@@ -953,8 +953,9 @@
                           </div>
                         </div>
                         <div class="team_soc--wrap">
-                          <a href="https://twitter.com/daniloscarlucci" class="team_soc--link is--tw w-inline-block"></a>
-                          <a href="https://www.linkedin.com/in/daniloscarlucci/" class="team_soc--link is--lin w-inline-block"></a><a href="https://twitter.com/daniloscarlucci" class="team_soc--link is--git w-inline-block w-condition-invisible"></a>
+                          <a href="" class="team_soc--link is--tw w-inline-block"></a>
+                          <a href="" class="team_soc--link is--lin w-inline-block"></a>
+                          <a href="" class="team_soc--link is--git w-inline-block w-condition-invisible"></a>
                         </div>
                       </div>
                     </div>
@@ -993,7 +994,7 @@
             </div>
             <div class="elrond_para--wrap">
               <div class="overflow-hidden">
-                <p class="paragraph fade1" style="font-size: 1.5rem">
+                <p class="paragraph fade1" style="font-size: 1.2rem">
                   Advertising, at its core, is about capturing the attention of a passerby. Holofan brings your product to life, drawing customers in.<br>
                 </p>
               </div>
@@ -1033,7 +1034,7 @@
               </div>
               <div class="careers_para--wrap">
                 <div class="overflow-hidden">
-                  <p class="paragraph is--careers fade1" style="font-size: 1.5rem">
+                  <p class="paragraph is--careers fade1" style="font-size: 1.2rem">
                     No more white boards. No more screens. Want people to really notice your visual charts, graphs, and images? Elevate your presentation and mesmerize your audience with a breathtaking visual experience.<br>
                   </p>
                 </div>
@@ -1045,7 +1046,7 @@
               ></div>
             </div>
             <a
-              href="https://morningstarventures.recruitee.com/"
+              href=""
               rel="noopener"
               data-w-id="fc4bbbf3-722f-a74d-4417-8d14ab205ccf"
               target="_blank"
@@ -1157,30 +1158,37 @@
         </div>
         <div id="newsletter" class="footer_target"></div>
       </section>
-      <section class="testimonials">
-        <div class="testimonials-container">
-          <div class="testimonials-title">
-            WHAT HOLOFAN USERS ARE SAYING
+        <section class="testimonials-section">
+          <input type="radio" name="slider" title="slide1" checked="checked" class="slider__nav"/>
+          <input type="radio" name="slider" title="slide2" class="slider__nav"/>
+          <input type="radio" name="slider" title="slide3" class="slider__nav"/>
+          <input type="radio" name="slider" title="slide4" class="slider__nav"/>
+          <input type="radio" name="slider" title="slide5" class="slider__nav"/>
+        <div class="slider__inner">
+          <div class="slider__contents">
+            <quote>&rdquo;</quote>
+            <p class="slider__txt"> I'm a small business owner. Ever since displaying Holofan in my store front, I've noticed at least 2x more people walking into my store. The holographic effects is an attention grabber and that helped tremendously in our revenue!</p>
+            <h2 class="slider__caption">Michael W</h2>
           </div>
-          <div class="testimonials-items">
-            <div class="testimonials-item">
-              I'm a small business owner. Ever since displaying Holofan in my store front, I've noticed at least 2x more people walking into my store. The holographic effects is an attention grabber and that helped tremendously in our revenue!
-              <div class="testimonials-autor">
-                <h5>Michael W</h5>
-              </div>
-            </div>
-            <div class="testimonials-item">
-              WOW! The visual effects from holofan is out of this world. I've literally never seen anything like it. The 3D effects really make it seem like a hologram is there. All of my friends are amazed that something like this exists.
-              <div class="testimonials-autor">
-                <h5>Kevin T.</h5>
-              </div>
-            </div>
-            <div class="testimonials-item">
-              <img src="media/testimonials-icon.svg" alt=""> Love how easy it is to use! I'm not very tech savvy so I thought it was going to be difficult to create the holographic effect. But their App makes it so simple. Just upload and the App does everything for you. They also provided me with hundreds of 3D content to use.
-              <div class="testimonials-autor">
-                <h5>Michelle P.</h5>
-              </div>
-            </div>
+          <div class="slider__contents">
+            <quote>&rdquo;</quote>
+            <p class="slider__txt">WOW! The visual effects from holofan is out of this world. I've literally never seen anything like it. The 3D effects really make it seem like a hologram is there. All of my friends are amazed that something like this exists.</p>
+            <h2 class="slider__caption">Kevin T.</h2>
+          </div>
+          <div class="slider__contents">
+            <quote>&rdquo;</quote>
+            <p class="slider__txt">Love how easy it is to use! I'm not very tech savvy so I thought it was going to be difficult to create the holographic effect. But their App makes it so simple. Just upload and the App does everything for you. They also provided me with hundreds of 3D content to use.</p>
+            <h2 class="slider__caption">Michelle P.</h2>
+          </div>
+          <div class="slider__contents">
+            <quote>&rdquo;</quote>
+            <p class="slider__txt">As an elementary school teacher, I'm always looking for exciting ways for kids to learn! I display my holofan on the table and it instantly grabs all of their attention. I can definitely see that they are more interested in what I have to teach now!</p>
+            <h2 class="slider__caption">Anna K.</h2>
+          </div>
+          <div class="slider__contents">
+            <quote>&rdquo;</quote>
+            <p class="slider__txt">I was honestly shocked at how good of a deal this is. Something as new and innovative this is, I would expect it to cost thousands of dollars. But I got mine for only $200.</p>
+            <h2 class="slider__caption">Peter S.</h2>
           </div>
         </div>
       </section>
@@ -1204,8 +1212,8 @@
     <div class="page-trans-out"></div>
     </div>
 
-    <script src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=6218b09ec1cd76c58f838521" type="text/javascript" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
-    <script src="https://global-uploads.webflow.com/6218b09ec1cd76c58f838521/js/webflow.84242121e.js"type="text/javascript"></script>
+    <script src="public/js/modules/jquery.js" type="text/javascript" crossorigin="anonymous"></script>
+    <script src="public/js/modules/webflow.js"type="text/javascript"></script>
 
     <script>
       function internalLink(myLink) {
@@ -1349,32 +1357,23 @@
         });
       });
     </script>
-    <script>
-     // AOS.init();
-    </script>
 
-<!--BARRA DE BUSQUEDA-->
-   <script src="js/search.js"></script>
+    <!--BARRA DE BUSQUEDA-->
+    <script src="public/js/home/components/search.js"></script>
    <!-- Hologram config -->
-   <script src="js/three.min.js"></script>
+    <script src="public/js/modules/threejs/three.min.js"></script>
    
-   <script src="js/canvasrenderer.js"></script>
-    <script src='https://cdnjs.cloudflare.com/ajax/libs/dat-gui/0.5.1/dat.gui.min.js'></script>
-    <script src='https://unpkg.com/three@0.83.0/examples/js/shaders/CopyShader.js'></script>
-    <script src='https://unpkg.com/three@0.83.0/examples/js/postprocessing/EffectComposer.js'></script>
-    <script src='https://unpkg.com/three@0.83.0/examples/js/postprocessing/RenderPass.js'></script>
-    <script src='https://unpkg.com/three@0.83.0/examples/js/postprocessing/ShaderPass.js'></script>
-    <script src='https://unpkg.com/three@0.83.0/examples/js/shaders/HorizontalBlurShader.js'></script>
-    <script src='https://unpkg.com/three@0.83.0/examples/js/shaders/VerticalBlurShader.js'></script>
-    <script src='https://unpkg.com/three@0.83.0/examples/js/shaders/FilmShader.js'></script>
-    <script src='https://unpkg.com/three@0.83.0/examples/js/shaders/LuminosityHighPassShader.js'></script>
-    <script src='https://unpkg.com/three@0.83.0/examples/js/postprocessing/UnrealBloomPass.js'></script>
-    <script src='https://cdn.rawgit.com/felixturner/bad-tv-shader/master/BadTVShader.js'></script>
-    <script src="js/smoke.js"></script>
+    <script src="public/js/home/scene/canvasrenderer.js"></script>
+    <script src="public/js/modules/threejs/effect-composer.js"></script>
+    <script src="public/js/modules/threejs/render-pass.js"></script>
+    <script src="public/js/modules/threejs/shader-pass.js"></script>
+    <script src="public/js/modules/threejs/film-shader.js"></script>
+    <script src="public/js/modules/threejs/high-pass-shader.js"></script>
+    <script src="public/js/home/scene/smoke.js"></script>
     
   
    <!--Hologram model 3d-->
-   <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+   <script type="module" src="public/js/modules/model-viewer.js"></script>
 
   </body>
 </html>
