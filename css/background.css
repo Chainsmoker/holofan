@@ -9,7 +9,7 @@
 #model-earth
 {
     filter: 
-    hue-rotate(45deg)
+    contrast(0.5)
     drop-shadow(2px 4px 6px black)
-    drop-shadow(0px 50px 150px rgb(68, 68, 180))
+    drop-shadow(0px 50px 150px rgb(90, 233, 252));
 }
