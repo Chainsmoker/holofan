@@ -3759,10 +3759,10 @@ blockquote {
   grid-auto-columns    : 1fr;
   grid-column-gap      : 16px;
   grid-row-gap         : 16px;
-  -ms-grid-columns     : 1fr 1fr 1fr 1fr 1fr 1fr;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  -ms-grid-columns     : 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   -ms-grid-rows        : auto auto;
-  grid-template-rows   : auto auto
+  grid-template-rows   : auto auto;
 }
 
 .port_item {
@@ -4070,7 +4070,7 @@ blockquote {
   -ms-flex        : 1;
   flex            : 1;
   font-family     : Simplon, sans-serif;
-  font-size: 1.2rem !important;
+  font-size: 1rem !important;
 }
 
 .prod_pill {
@@ -4319,6 +4319,11 @@ blockquote {
 .body_heading.is--brand {
   font-size  : 2em;
   font-weight: 300
+}
+
+.heading_respo {
+  width: 100%;
+  text-align: center;
 }
 
 .prod_circle {
@@ -6906,8 +6911,9 @@ blockquote {
   .body_heading,
   .body_heading.is--softfade.is--2,
   .body_heading.is--softfade.is--quote {
-    font-size: 2.5em 
+    font-size: 2.5em ;
   }
+
 
   .elrond_content--wrap {
     max-width: 68vw
