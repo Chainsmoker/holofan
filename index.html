@@ -345,7 +345,7 @@
   <!-- Audio -->
   <div class="global_music--container">
     <audio id="music-background" controls autoplay loop>
-      <source src="media/effects.mp3" type="audio/mpeg">
+      <source src="public\other\effects.ogg" type="audio/ogg">
     </audio>
     <img src="media/music-icon.svg" alt="">
   </div>
@@ -1092,8 +1092,8 @@
     
     <div id="viewport" class="viewport">
       <div id="hologram"> </div>
-      
-      <model-viewer id="model-earth" class="holograms" src="models/earth_hologram.glb"
+      <div id="model-conteiner">
+        <model-viewer id="model-earth" class="holograms" src="models/earth_hologram.glb"
         exposure="0.5"
         camera-controls
         disable-zoom
@@ -1102,6 +1102,7 @@
         autoplay shadow-softness="0"
         orbit-sensitivity="0.3">
       </model-viewer>
+      </div>
     </div>
     <div class="page-trans-wrap no-click">
       <div class="page-trans-out"></div>
@@ -1259,6 +1260,7 @@
     <script src="public/js/modules/threejs/three.min.js"></script>
    
     <script src="public/js/home/scene/canvasrenderer.js"></script>
+    <script src="public/js/modules/threejs/copy-shader.js"></script>
     <script src="public/js/modules/threejs/effect-composer.js"></script>
     <script src="public/js/modules/threejs/render-pass.js"></script>
     <script src="public/js/modules/threejs/shader-pass.js"></script>
@@ -1268,6 +1270,7 @@
     
   
    <!--Hologram model 3d-->
+   <script src="public/js/modules/threejs/model-screen.js"></script>
    <script type="module" src="public/js/modules/model-viewer.js"></script>
 
 </body>
