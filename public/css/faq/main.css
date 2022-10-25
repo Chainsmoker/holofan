@@ -26,6 +26,10 @@
   transition: .3s;
 }
 
+.arrow-transform {
+  transform: rotate(180deg);
+}
+
 @media (max-width: 555px) {
   .accordion-item {
     width: 300px;

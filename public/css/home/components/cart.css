@@ -34,6 +34,7 @@
   flex-direction: column;
   align-items: center;
   padding: 20px 0;
+  overflow: scroll;
 }
 
 .cart-shop--item {
@@ -71,7 +72,7 @@
 }
 
 .cart-shop--footer {
-  height: 350px;
+  height: 150px;
   width: 100%;
   display: flex;
   align-items: center;
@@ -80,6 +81,7 @@
 }
 
 .cart-buy {
+  margin-top: 20px;
   height: 70px;
   padding: 10px 20px;
   border-radius: inherit;
