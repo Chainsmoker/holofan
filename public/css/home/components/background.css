@@ -1,3 +1,8 @@
+@media screen and (min-width:479px) {
+    #model-conteiner{
+      margin-top: 11vh;
+    }
+}
 #model-conteiner {
     width: 800px;
     height: inherit;
