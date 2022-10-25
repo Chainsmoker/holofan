@@ -276,6 +276,12 @@ th {
   box-sizing        : border-box
 }
 
+@font-face{
+  font-family: Orbitron-Regular !important;
+  src: url(/public/other/Orbitron-Regular.ttf) format("opentype") !important;
+
+}
+
 body {
   margin          : 0;
   min-height      : 100%;
@@ -284,7 +290,7 @@ body {
      -moz-user-select: none;
       -ms-user-select: none;
           user-select: none;
-  font-family     : Punta, sans-serif;
+  font-family     : Orbitron-Regular !important;
   color           : #fff;
   font-size       : 1vw;
   line-height     : 1.6

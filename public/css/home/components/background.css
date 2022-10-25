@@ -17,3 +17,9 @@
         drop-shadow(2px 4px 6px rgb(53, 51, 216))
         drop-shadow(0px 0px 250px blue);
 }
+
+@media screen and (min-width:479px) {
+    #model-conteiner{
+      margin-top: 11vh;
+    }
+}
