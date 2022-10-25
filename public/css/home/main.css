@@ -33,6 +33,10 @@ section,
   display: block;
 }
 
+.uppercase {
+  text-transform: uppercase;
+}
+
 .dg{
   display: none;
   visibility: hidden;

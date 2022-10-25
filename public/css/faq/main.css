@@ -1,0 +1,42 @@
+.accordion-item {
+  width: 450px;
+}
+
+.accordion-title {
+  cursor: pointer;
+}
+
+.accordion-content {
+  overflow: hidden;
+  height: 0;
+  transition: .3s height;
+}
+
+.accordion-content::before, .accordion-content::after {
+  content: "";
+  display: block;
+}
+
+#arrow {
+  transition: .3s transform;
+}
+
+.open-accordion {
+  height: 150px;
+  transition: .3s;
+}
+
+@media (max-width: 555px) {
+  .accordion-item {
+    width: 300px;
+  }
+  .open-accordion {
+    height: 120px;
+  }
+}
+
+@media (max-width: 300px) {
+  .accordion-item {
+    width: 200px;
+  }
+}
