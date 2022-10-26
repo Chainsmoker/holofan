@@ -23,3 +23,9 @@
     grid-template-columns: 1fr;
   }
 }
+
+@media(max-width:750px){
+  .nav_soc--list {
+    display: none;
+  }
+}
