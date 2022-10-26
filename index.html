@@ -624,11 +624,12 @@
       <div class="container is--elrond">
         <div class="elrond_tower--wrap">
           <div class="is--softfade">
-            <img src="https://cdn.shopify.com/s/files/1/0522/6115/9078/files/p1-3_540x.jpg" loading="lazy" alt="elrond"
-              class="elrond_tower--img is--softfade">
+
+              </div>
+            </model-viewer>
           </div>
         </div>
-        <div class="elrond_content--wrap">
+        <div class="elrond_content--wrap" style="margin: 0 2vw;">
           <div class="elrond_text--wrap">
             <div class="overflow-hidden">
               <h3 class="body_heading fade1">WITH HOLOFAN®</h3>
@@ -666,6 +667,13 @@
             </div>
           </a>
         </div>
+        <model-viewer id="holofan" camera-controls loading="eager" src="models/holofan.glb" exposure="1" disable-zoom
+          shadow-intensity="1" autoplay shadow-softness="0" min-camera-orbit="auto 72deg auto"
+          max-camera-orbit="auto 73deg auto><div class=" progress-bar hide" slot="progress-bar">
+            <div class="progress-bar hide" slot="progress-bar">
+              <div class="update-bar"></div>
+          </div>
+        </model-viewer>
       </div>
       <div id="s_id--1" class="s__target"></div>
     </section>
@@ -1199,8 +1207,11 @@
   <div id="viewport" class="viewport">
     <div id="hologram"> </div>
     <div id="model-conteiner">
-      <model-viewer id="model-earth" class="holograms" src="models/earth_hologram.glb" exposure="0.5" camera-controls
+      <model-viewer id="model-earth"  src="models/earth_hologram.glb" exposure="0.5"
         disable-zoom disable-tap shadow-intensity="0" autoplay shadow-softness="0" orbit-sensitivity="0.3">
+        <div class="progress-bar hide" slot="progress-bar">
+          <div class="update-bar"></div>
+      </div>
       </model-viewer>
     </div>
 
@@ -1371,10 +1382,10 @@
       
       <script src="public/js/modules/threejs/high-pass-shader.js"></script>
       <script src="public/js/home/scene/canvasrenderer.js"></script>
+      <script src="public/js/modules/threejs/model-screen.js"></script>
   -->
 
     <!--Hologram model 3d-->
-    <script src="public/js/modules/threejs/model-screen.js"></script>
     <script type="module" src="public/js/modules/model-viewer.js"></script>
 
 </body>
