@@ -12,18 +12,12 @@
   transition: .3s height;
 }
 
-.accordion-content::before, .accordion-content::after {
-  content: "";
-  display: block;
-}
-
 #arrow {
   transition: .3s transform;
 }
 
 .open-accordion {
   height: 150px;
-  transition: .3s;
 }
 
 .arrow-transform {

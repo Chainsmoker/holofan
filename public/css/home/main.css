@@ -281,6 +281,12 @@ th {
   
 }
 
+@font-face{
+  font-family: Orbitron-Regular !important;
+  src: url(/public/other/Orbitron-Regular.ttf) format("opentype") !important;
+
+}
+
 body {
   margin          : 0;
   min-height      : 100%;
@@ -7084,7 +7090,7 @@ blockquote {
   }
 
   .cta_heading {
-    font-size: 2.5em
+    font-size: 1em
   }
 
   .collection-list-3 {
@@ -7310,4 +7316,33 @@ blockquote {
   background-color: #0082f3;
   position: absolute;
   top: 35%;
+}
+
+.nav_link--txt:hover, .nav-holo-dropdown:hover {
+  color: #2298ff;
+}
+
+.nav-dropdown {
+  font-size: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+  color: #fff;
+  overflow: hidden;
+  height: 0;
+  transition: .3s height;
+  padding-left: 40px;
+  background-color: #08080875;
+}
+
+.nav-dropdown-link:hover > .nav-dropdown {
+  height: 150px;
+}
+
+@media (max-width: 800px) {
+  .nav-dropdown {
+    padding-left: 10px;
+    align-items: flex-start;
+  }
 }
