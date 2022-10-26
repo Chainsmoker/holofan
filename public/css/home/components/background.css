@@ -3,16 +3,15 @@
 #model-conteiner {
     width: 100vw;
     height: 100vh;
-    margin: auto;
-    padding: 2vh;
-    padding-top: 5vh;
+    margin: 0;
+    padding: 0 15vw;
     padding-bottom: 15vh;
 }
 
 #model-earth {
+    margin-top: 4vh;
     width: 100%;
     height: 100%;
-    
 }
 #lazy-load-poster{
     visibility: none;
@@ -34,5 +33,11 @@
 @media screen and (max-width:479px) {
     #mission{
         flex-direction: column !important;
+    }
+    .hero_content--wrap{
+        padding: 0 20px;
+    }
+    #model-earth {
+        margin-top: 8vh;    
     }
 }

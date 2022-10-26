@@ -934,9 +934,12 @@
   <div id="viewport" class="viewport">
     <div id="hologram"> </div>
     <div id="model-conteiner">
-      <model-viewer id="model-earth" class="holograms" src="models/earth_hologram.glb" exposure="0.5" camera-controls
-        disable-zoom disable-tap shadow-intensity="0" autoplay shadow-softness="0" orbit-sensitivity="0.3">
-      </model-viewer>
+      <model-viewer id="model-earth"  src="models/earth_hologram.glb" exposure="0.5"
+      disable-zoom disable-tap shadow-intensity="0" autoplay shadow-softness="0" orbit-sensitivity="0.3">
+      <div class="progress-bar hide" slot="progress-bar">
+        <div class="update-bar"></div>
+    </div>
+    </model-viewer>
     </div>
 
     <div class="page-trans-wrap no-click">
