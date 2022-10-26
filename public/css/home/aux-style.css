@@ -1,8 +1,21 @@
+@font-face{
+  font-family: orbitron;
+  src: url("/public/font/Orbitron-Regular.ttf") format("opentype");
+  font-weight:Bold;
+}
+@font-face{
+  font-family: soliden;
+  src: url("/public/font/soliden-bold.otf") format("opentype");
+}
 body {
   cursor: none;
   overflow-x: hidden;
+  font-family: orbitron !important;
 }
+p{
+  font-family: orbitron !important;
 
+}
 a {
   cursor: none !important;
 }

@@ -276,17 +276,6 @@ th {
   -moz-box-sizing   : border-box;
   box-sizing        : border-box
 }
-@font-face{
-  font-family: Orbitron-Regular !important;
-  src: url(/public/other/Orbitron-Regular.ttf) format("opentype") !important;
-  
-}
-
-@font-face{
-  font-family: Orbitron-Regular !important;
-  src: url(/public/other/Orbitron-Regular.ttf) format("opentype") !important;
-
-}
 
 body {
   margin          : 0;
@@ -296,11 +285,11 @@ body {
      -moz-user-select: none;
       -ms-user-select: none;
           user-select: none;
-  font-family     : Orbitron-Regular !important;
   color           : #fff;
   font-size       : 1vw;
-  line-height     : 1.6
+  line-height     : 1.6;
 }
+
 
 html.w-mod-touch * {
   background-attachment: scroll !important
@@ -2691,7 +2680,7 @@ blockquote {
   display                : flex;
   min-height             : 100vh;
   padding-right          : 15em;
-  padding-left           : 15em;
+  padding-left           : 5em;
   -webkit-box-orient     : vertical;
   -webkit-box-direction  : normal;
   -webkit-flex-direction : column;

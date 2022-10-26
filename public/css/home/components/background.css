@@ -7,6 +7,10 @@
     padding: 0 15vw;
     padding-bottom: 15vh;
 }
+#model-fan{
+    width: 50%;
+    height: 55%;
+}
 
 #model-earth {
     margin-top: 4vh;
@@ -27,7 +31,7 @@
 #holofan{
     height: 400px;
     width: 350px;
-    margin: 0 5vw;
+    margin: auto;
 }
 
 @media screen and (max-width:479px) {
