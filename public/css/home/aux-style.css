@@ -7,13 +7,17 @@
   font-family: soliden;
   src: url("/public/font/soliden-bold.otf") format("opentype");
 }
+@font-face{
+  font-family: montserrat;
+  src: url(/public/font/montserrat.ttf) format("opentype");
+}
 body {
   cursor: none;
   overflow-x: hidden;
-  font-family: orbitron !important;
+  font-family: montserrat !important;
 }
 p{
-  font-family: orbitron !important;
+  font-family: montserrat !important;
 
 }
 a {

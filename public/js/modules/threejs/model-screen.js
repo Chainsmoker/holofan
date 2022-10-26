@@ -1,7 +1,7 @@
 //SE ENCARGA DE LA RESOLUCION DINAMICA DEL VIZOR DEL MODELO
 //ajuista el modeo al ancho de la pantalla para que se mantenga en su lugar y redusca uso del gpu
 
-const model = document.getElementById("model-conteiner"); //el modelo 3d
+const model = document.getElementById("hologram"); //el modelo 3d
 const modelViewer = document.querySelector("model-viewer#model-earth"); //el modelo 3d
 
 //inicializar
