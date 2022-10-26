@@ -1,6 +1,11 @@
 .card-wrapper{
   max-width: 1200px;
-  margin: 100px auto;
+  margin: 200px auto;
+}
+@media(max-width: 1000px){
+  .card-wrapper{
+    margin: 100px auto;
+  }
 }
 img{
   width: 100%;
@@ -188,5 +193,11 @@ img{
   }
   .product-content{
       padding-top: 0;
+  }
+}
+
+@media(max-width:750px){
+  .nav_soc--list {
+    display: none;
   }
 }
