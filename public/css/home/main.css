@@ -21,10 +21,11 @@ section,
 #hologram
 {
   position: absolute;
-  margin: auto;
+  margin: 0;
   width: inherit;
 }
-/*
+
+
 #hologram canvas{
   padding-left: 0;
   padding-right: 0;
@@ -32,7 +33,7 @@ section,
   margin-right: auto;
   display: block;
 }
-*/
+
 
 .uppercase {
   text-transform: uppercase;
@@ -3571,7 +3572,7 @@ blockquote {
 }
 
 .hero_text--wrap {
-  max-width    : 37em;
+  max-width    : 50em;
   margin-top   : 1em;
   margin-bottom: 3em;
   text-align   : center

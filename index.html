@@ -595,10 +595,20 @@
     </div>
   </div>
   <div class="layout">
+
     <section id="hero" data-w-id="6a3125f6-300b-95f2-9c67-d4f0e712ac45" class="section is--hero">
       <div data-w-id="6d03e3e2-5094-61ab-e101-c652857ab8d1" class="sticky_track">
         <div class="container is--hero">
+        
           <div class="hero_content--wrap">
+            <div id="model-conteiner">
+              <model-viewer id="model-earth"  src="models/earth_hologram.glb" exposure="0.5"
+                disable-zoom disable-tap shadow-intensity="0" autoplay shadow-softness="0" orbit-sensitivity="0.3">
+                <div class="progress-bar hide" slot="progress-bar">
+                  <div class="update-bar"></div>
+              </div>
+              </model-viewer>
+            </div>
             <h1 class="hero_h1">3D VISUALS REIMAGINED</h1>
             <br>
             <div style="filter: blur(5px); opacity: 0; margin-top: -30px;" class="hero_text--wrap">
@@ -1163,14 +1173,7 @@
 
   <div id="viewport" class="viewport">
     <div id="hologram"> </div>
-    <div id="model-conteiner">
-      <model-viewer id="model-earth"  src="models/earth_hologram.glb" exposure="0.5"
-        disable-zoom disable-tap shadow-intensity="0" autoplay shadow-softness="0" orbit-sensitivity="0.3">
-        <div class="progress-bar hide" slot="progress-bar">
-          <div class="update-bar"></div>
-      </div>
-      </model-viewer>
-    </div>
+
 
     <div class="page-trans-wrap no-click">
       <div class="page-trans-out"></div>
