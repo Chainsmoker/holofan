@@ -6894,8 +6894,8 @@ blockquote {
   }
 
   .team_list {
-    -ms-grid-columns     : 1fr 1fr;
-    grid-template-columns: 1fr 1fr
+    -ms-grid-columns     : 1fr;
+    grid-template-columns: 1fr
   }
 
   .team_item:nth-child(even) {
