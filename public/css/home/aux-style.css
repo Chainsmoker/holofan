@@ -1,11 +1,10 @@
 @font-face{
-  font-family: orbitron;
-  src: url("/public/font/Orbitron-Regular.ttf") format("opentype");
-  font-weight:Bold;
+  font-family: modernist-bold;
+  src: url("/public/font/sk-modernist-bold.otf") format("opentype");
 }
 @font-face{
-  font-family: soliden;
-  src: url("/public/font/soliden-bold.otf") format("opentype");
+  font-family: modernist;
+  src: url("/public/font/sk-moderinist.otf") format("opentype");
 }
 @font-face{
   font-family: montserrat;
@@ -14,10 +13,10 @@
 body {
   cursor: none;
   overflow-x: hidden;
-  font-family: montserrat !important;
+  font-family: modernist-bold !important;
 }
 p{
-  font-family: montserrat !important;
+  font-family: modernist !important;
 
 }
 a {
