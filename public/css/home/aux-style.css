@@ -1,26 +1,32 @@
-@font-face{
+@font-face {
   font-family: modernist-bold;
   src: url("/public/font/sk-modernist-bold.otf") format("opentype");
 }
-@font-face{
+
+@font-face {
   font-family: modernist;
   src: url("/public/font/sk-moderinist.otf") format("opentype");
 }
-@font-face{
+
+@font-face {
   font-family: montserrat;
   src: url(/public/font/montserrat.ttf) format("opentype");
 }
+
 body {
   cursor: none;
   overflow-x: hidden;
   font-family: modernist-bold !important;
 }
-p{
+
+p {
   font-family: modernist !important;
 
 }
+
 a {
   cursor: none !important;
+
 }
 
 /*hide webflow badge*/
@@ -32,9 +38,11 @@ a {
 .preloader {
   display: flex;
 }
+
 .w-editor .preloader {
   display: none;
 }
+
 .w-editor body {
   cursor: auto !important;
 }
@@ -47,6 +55,7 @@ a {
 body:hover .cursor {
   opacity: 1;
 }
+
 .cursor {
   pointer-events: none;
 }

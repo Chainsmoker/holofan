@@ -1,206 +1,205 @@
 @media (min-width: 992px) {
-  html.w-mod-js:not(.w-mod-ix)
-    [data-w-id="a44a258e-ec04-2962-0001-d3604ddffb9a"] {
+  html.w-mod-js:not(.w-mod-ix) [data-w-id="a44a258e-ec04-2962-0001-d3604ddffb9a"] {
     opacity: 0;
     display: none;
     filter: blur(5px);
   }
-  html.w-mod-js:not(.w-mod-ix)
-    [data-w-id="81961852-defa-29a6-3beb-99ef3e70f08b"] {
+
+  html.w-mod-js:not(.w-mod-ix) [data-w-id="81961852-defa-29a6-3beb-99ef3e70f08b"] {
     opacity: 0;
     display: none;
     filter: blur(5px);
   }
-  html.w-mod-js:not(.w-mod-ix)
-    [data-w-id="d43c0b6d-6efb-8fc5-80df-b5a7c8376603"] {
+
+  html.w-mod-js:not(.w-mod-ix) [data-w-id="d43c0b6d-6efb-8fc5-80df-b5a7c8376603"] {
     opacity: 0;
     display: none;
     filter: blur(5px);
   }
-  html.w-mod-js:not(.w-mod-ix)
-    [data-w-id="92374bcd-335b-dcd8-5fce-1eff3c95423e"] {
+
+  html.w-mod-js:not(.w-mod-ix) [data-w-id="92374bcd-335b-dcd8-5fce-1eff3c95423e"] {
     opacity: 0;
     display: none;
     filter: blur(5px);
   }
-  html.w-mod-js:not(.w-mod-ix)
-    [data-w-id="547dcf54-fe8e-d6c7-e07d-905e00335469"] {
+
+  html.w-mod-js:not(.w-mod-ix) [data-w-id="547dcf54-fe8e-d6c7-e07d-905e00335469"] {
     opacity: 0;
     display: none;
     filter: blur(5px);
   }
-  html.w-mod-js:not(.w-mod-ix)
-    [data-w-id="42491817-a32a-0d1e-5d32-c62443f01041"] {
+
+  html.w-mod-js:not(.w-mod-ix) [data-w-id="42491817-a32a-0d1e-5d32-c62443f01041"] {
     opacity: 0;
     display: none;
     filter: blur(5px);
   }
-  html.w-mod-js:not(.w-mod-ix)
-    [data-w-id="dd78893f-078a-48c0-76d6-433fd050c7e7"] {
+
+  html.w-mod-js:not(.w-mod-ix) [data-w-id="dd78893f-078a-48c0-76d6-433fd050c7e7"] {
     opacity: 0;
     display: none;
     filter: blur(5px);
   }
-  html.w-mod-js:not(.w-mod-ix)
-    [data-w-id="dc70bd84-6fb6-0e3f-ba33-cfad33875c19"] {
+
+  html.w-mod-js:not(.w-mod-ix) [data-w-id="dc70bd84-6fb6-0e3f-ba33-cfad33875c19"] {
     opacity: 0;
     display: none;
     filter: blur(5px);
   }
-  html.w-mod-js:not(.w-mod-ix)
-    [data-w-id="d99f68cd-6752-b536-3d1d-9266745bc321"] {
+
+  html.w-mod-js:not(.w-mod-ix) [data-w-id="d99f68cd-6752-b536-3d1d-9266745bc321"] {
     display: none;
   }
 }
+
 @media (max-width: 991px) and (min-width: 768px) {
-  html.w-mod-js:not(.w-mod-ix)
-    [data-w-id="a44a258e-ec04-2962-0001-d3604ddffb9a"] {
+  html.w-mod-js:not(.w-mod-ix) [data-w-id="a44a258e-ec04-2962-0001-d3604ddffb9a"] {
     opacity: 0;
     display: none;
     filter: blur(5px);
   }
-  html.w-mod-js:not(.w-mod-ix)
-    [data-w-id="81961852-defa-29a6-3beb-99ef3e70f08b"] {
+
+  html.w-mod-js:not(.w-mod-ix) [data-w-id="81961852-defa-29a6-3beb-99ef3e70f08b"] {
     opacity: 0;
     display: none;
     filter: blur(5px);
   }
-  html.w-mod-js:not(.w-mod-ix)
-    [data-w-id="d43c0b6d-6efb-8fc5-80df-b5a7c8376603"] {
+
+  html.w-mod-js:not(.w-mod-ix) [data-w-id="d43c0b6d-6efb-8fc5-80df-b5a7c8376603"] {
     opacity: 0;
     display: none;
     filter: blur(5px);
   }
-  html.w-mod-js:not(.w-mod-ix)
-    [data-w-id="92374bcd-335b-dcd8-5fce-1eff3c95423e"] {
+
+  html.w-mod-js:not(.w-mod-ix) [data-w-id="92374bcd-335b-dcd8-5fce-1eff3c95423e"] {
     opacity: 0;
     display: none;
     filter: blur(5px);
   }
-  html.w-mod-js:not(.w-mod-ix)
-    [data-w-id="547dcf54-fe8e-d6c7-e07d-905e00335469"] {
+
+  html.w-mod-js:not(.w-mod-ix) [data-w-id="547dcf54-fe8e-d6c7-e07d-905e00335469"] {
     opacity: 0;
     display: none;
     filter: blur(5px);
   }
-  html.w-mod-js:not(.w-mod-ix)
-    [data-w-id="42491817-a32a-0d1e-5d32-c62443f01041"] {
+
+  html.w-mod-js:not(.w-mod-ix) [data-w-id="42491817-a32a-0d1e-5d32-c62443f01041"] {
     opacity: 0;
     display: none;
     filter: blur(5px);
   }
-  html.w-mod-js:not(.w-mod-ix)
-    [data-w-id="dd78893f-078a-48c0-76d6-433fd050c7e7"] {
+
+  html.w-mod-js:not(.w-mod-ix) [data-w-id="dd78893f-078a-48c0-76d6-433fd050c7e7"] {
     opacity: 0;
     display: none;
     filter: blur(5px);
   }
-  html.w-mod-js:not(.w-mod-ix)
-    [data-w-id="dc70bd84-6fb6-0e3f-ba33-cfad33875c19"] {
+
+  html.w-mod-js:not(.w-mod-ix) [data-w-id="dc70bd84-6fb6-0e3f-ba33-cfad33875c19"] {
     opacity: 0;
     display: none;
     filter: blur(5px);
   }
-  html.w-mod-js:not(.w-mod-ix)
-    [data-w-id="d99f68cd-6752-b536-3d1d-9266745bc321"] {
+
+  html.w-mod-js:not(.w-mod-ix) [data-w-id="d99f68cd-6752-b536-3d1d-9266745bc321"] {
     display: none;
   }
 }
+
 @media (max-width: 767px) and (min-width: 480px) {
-  html.w-mod-js:not(.w-mod-ix)
-    [data-w-id="a44a258e-ec04-2962-0001-d3604ddffb9a"] {
+  html.w-mod-js:not(.w-mod-ix) [data-w-id="a44a258e-ec04-2962-0001-d3604ddffb9a"] {
     opacity: 0;
     display: none;
     filter: blur(5px);
   }
-  html.w-mod-js:not(.w-mod-ix)
-    [data-w-id="81961852-defa-29a6-3beb-99ef3e70f08b"] {
+
+  html.w-mod-js:not(.w-mod-ix) [data-w-id="81961852-defa-29a6-3beb-99ef3e70f08b"] {
     opacity: 0;
     display: none;
     filter: blur(5px);
   }
-  html.w-mod-js:not(.w-mod-ix)
-    [data-w-id="d43c0b6d-6efb-8fc5-80df-b5a7c8376603"] {
+
+  html.w-mod-js:not(.w-mod-ix) [data-w-id="d43c0b6d-6efb-8fc5-80df-b5a7c8376603"] {
     opacity: 0;
     display: none;
     filter: blur(5px);
   }
-  html.w-mod-js:not(.w-mod-ix)
-    [data-w-id="92374bcd-335b-dcd8-5fce-1eff3c95423e"] {
+
+  html.w-mod-js:not(.w-mod-ix) [data-w-id="92374bcd-335b-dcd8-5fce-1eff3c95423e"] {
     opacity: 0;
     display: none;
     filter: blur(5px);
   }
-  html.w-mod-js:not(.w-mod-ix)
-    [data-w-id="547dcf54-fe8e-d6c7-e07d-905e00335469"] {
+
+  html.w-mod-js:not(.w-mod-ix) [data-w-id="547dcf54-fe8e-d6c7-e07d-905e00335469"] {
     opacity: 0;
     display: none;
     filter: blur(5px);
   }
-  html.w-mod-js:not(.w-mod-ix)
-    [data-w-id="42491817-a32a-0d1e-5d32-c62443f01041"] {
+
+  html.w-mod-js:not(.w-mod-ix) [data-w-id="42491817-a32a-0d1e-5d32-c62443f01041"] {
     opacity: 0;
     display: none;
     filter: blur(5px);
   }
-  html.w-mod-js:not(.w-mod-ix)
-    [data-w-id="dd78893f-078a-48c0-76d6-433fd050c7e7"] {
+
+  html.w-mod-js:not(.w-mod-ix) [data-w-id="dd78893f-078a-48c0-76d6-433fd050c7e7"] {
     opacity: 0;
     display: none;
     filter: blur(5px);
   }
-  html.w-mod-js:not(.w-mod-ix)
-    [data-w-id="dc70bd84-6fb6-0e3f-ba33-cfad33875c19"] {
+
+  html.w-mod-js:not(.w-mod-ix) [data-w-id="dc70bd84-6fb6-0e3f-ba33-cfad33875c19"] {
     opacity: 0;
     display: none;
     filter: blur(5px);
   }
 }
+
 @media (max-width: 479px) {
-  html.w-mod-js:not(.w-mod-ix)
-    [data-w-id="a44a258e-ec04-2962-0001-d3604ddffb9a"] {
+  html.w-mod-js:not(.w-mod-ix) [data-w-id="a44a258e-ec04-2962-0001-d3604ddffb9a"] {
     opacity: 0;
     display: none;
     filter: blur(5px);
   }
-  html.w-mod-js:not(.w-mod-ix)
-    [data-w-id="81961852-defa-29a6-3beb-99ef3e70f08b"] {
+
+  html.w-mod-js:not(.w-mod-ix) [data-w-id="81961852-defa-29a6-3beb-99ef3e70f08b"] {
     opacity: 0;
     display: none;
     filter: blur(5px);
   }
-  html.w-mod-js:not(.w-mod-ix)
-    [data-w-id="d43c0b6d-6efb-8fc5-80df-b5a7c8376603"] {
+
+  html.w-mod-js:not(.w-mod-ix) [data-w-id="d43c0b6d-6efb-8fc5-80df-b5a7c8376603"] {
     opacity: 0;
     display: none;
     filter: blur(5px);
   }
-  html.w-mod-js:not(.w-mod-ix)
-    [data-w-id="92374bcd-335b-dcd8-5fce-1eff3c95423e"] {
+
+  html.w-mod-js:not(.w-mod-ix) [data-w-id="92374bcd-335b-dcd8-5fce-1eff3c95423e"] {
     opacity: 0;
     display: none;
     filter: blur(5px);
   }
-  html.w-mod-js:not(.w-mod-ix)
-    [data-w-id="547dcf54-fe8e-d6c7-e07d-905e00335469"] {
+
+  html.w-mod-js:not(.w-mod-ix) [data-w-id="547dcf54-fe8e-d6c7-e07d-905e00335469"] {
     opacity: 0;
     display: none;
     filter: blur(5px);
   }
-  html.w-mod-js:not(.w-mod-ix)
-    [data-w-id="42491817-a32a-0d1e-5d32-c62443f01041"] {
+
+  html.w-mod-js:not(.w-mod-ix) [data-w-id="42491817-a32a-0d1e-5d32-c62443f01041"] {
     opacity: 0;
     display: none;
     filter: blur(5px);
   }
-  html.w-mod-js:not(.w-mod-ix)
-    [data-w-id="dd78893f-078a-48c0-76d6-433fd050c7e7"] {
+
+  html.w-mod-js:not(.w-mod-ix) [data-w-id="dd78893f-078a-48c0-76d6-433fd050c7e7"] {
     opacity: 0;
     display: none;
     filter: blur(5px);
   }
-  html.w-mod-js:not(.w-mod-ix)
-    [data-w-id="dc70bd84-6fb6-0e3f-ba33-cfad33875c19"] {
+
+  html.w-mod-js:not(.w-mod-ix) [data-w-id="dc70bd84-6fb6-0e3f-ba33-cfad33875c19"] {
     opacity: 0;
     display: none;
     filter: blur(5px);
