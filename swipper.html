@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Swiper demo</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./public/css/home/carrousel.css">
+
+</head>
+
+<body>
+    <!-- Swiper -->
+    <div class="other" ></div>
+    <div id="models-container">
+        <div class="swiper mySwiper">
+            <div id="model-box" class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <model-viewer name="a" class="product-3d"
+                    src="./models/earth_hologram.glb"
+                    reveal="manual"
+                    poster="./public/images/holo-image.png"
+                    autoplay
+                    camera-controls
+                    disable-zoom
+                    min-camera-orbit="auto 62deg auto"
+                    max-camera-orbit="auto 62deg auto"> </model-viewer>
+                    <div class="buy-btn">
+                        <h3>Buy On Sale</h3>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <model-viewer name="b" class="product-3d"
+                    src="./models/earth_hologram.glb"
+                    reveal="manual"
+                    poster="./public/images/holo-image.png"
+                    autoplay
+                    camera-controls
+                    disable-zoom
+                    min-camera-orbit="auto 62deg auto"
+                    max-camera-orbit="auto 62deg auto"> </model-viewer>
+                    <div class="buy-btn">
+                        <h3>Buy On Sale</h3>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <model-viewer name="c" class="product-3d"
+                    src="./models/earth_hologram.glb"
+                    reveal="manual"
+                    poster="./public/images/holo-image.png"
+                    autoplay
+                    camera-controls
+                    disable-zoom
+                    min-camera-orbit="auto 62deg auto"
+                    max-camera-orbit="auto 62deg auto"> </model-viewer>
+                    <div class="buy-btn">
+                        <h3>Buy On Sale</h3>
+                    </div>
+                </div>
+                
+                
+
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </div>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script src="./public/js/home/components/swipper.js"></script>
+    <!--Here is some model viewers-->
+</body>
+<script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+
+</html>

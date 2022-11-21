@@ -1,0 +1,39 @@
+#models-container {
+            width: 300px;
+        }
+
+        .swiper {
+            pointer-events: auto;
+            width: 100%;
+            padding-top: 50px;
+            padding-bottom: 50px;
+        }
+
+        .swiper-slide {
+            background-position: center;
+            background-size: cover;
+            width: 250px;
+        }
+
+        .product-3d{
+            display: block;
+            width: 100%;
+            height: 250px;
+            background-color: transparent;
+        }
+
+        .buy-btn {
+            width: 100%;
+            height: 40px;
+            margin: 0;
+            bottom: 0;
+            background-color: rgba(129, 107, 107, 0.49);
+        }
+
+        .buy-btn h5 {
+            text-align: center;
+        }
+        .buy-btn:hover {
+
+            background-color:rgba(73, 63, 63, 0.49) ;
+        }
