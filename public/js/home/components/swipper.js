@@ -1,3 +1,10 @@
+var swiper = new Swiper(".mySwiper", {
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
+});
+
 //the the main conteiner of the modelviewers
 const modelConteiner = document.getElementById("model-box");
 let wasOver = false;
@@ -22,21 +29,3 @@ const poster = function () {
 modelConteiner.addEventListener("scroll", scroll);
 modelConteiner.addEventListener("mouseover", over);
 modelConteiner.addEventListener("poster-dismissed", poster);
-
-var swiper = new Swiper(".mySwiper", {
-  effect: "coverflow",
-  grabCursor: true,
-  centeredSlides: true,
-  slidesPerView: "auto",
-  mousewheel: true,
-  coverflowEffect: {
-    rotate: 50,
-    stretch: 0,
-    depth: 100,
-    modifier: 1,
-    slideShadows: true,
-  },
-  pagination: {
-    el: ".swiper-pagination",
-  },
-});

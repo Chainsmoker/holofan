@@ -1,39 +1,39 @@
-#models-container {
-            width: 300px;
-        }
+#models-container{
+    position: relative;
+    margin: auto;
+    height: 450px;
+    width: 80vw;
+}
+:root{
+    --swiper-theme-color:white !important;
+}
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
 
-        .swiper {
-            pointer-events: auto;
-            width: 100%;
-            padding-top: 50px;
-            padding-bottom: 50px;
-        }
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
 
-        .swiper-slide {
-            background-position: center;
-            background-size: cover;
-            width: 250px;
-        }
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
 
-        .product-3d{
-            display: block;
-            width: 100%;
-            height: 250px;
-            background-color: transparent;
-        }
-
-        .buy-btn {
-            width: 100%;
-            height: 40px;
-            margin: 0;
-            bottom: 0;
-            background-color: rgba(129, 107, 107, 0.49);
-        }
-
-        .buy-btn h5 {
-            text-align: center;
-        }
-        .buy-btn:hover {
-
-            background-color:rgba(73, 63, 63, 0.49) ;
-        }
+  .swiper-slide model-viewer {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }

@@ -595,13 +595,31 @@
         <div class="container is--hero">
 
           <div class="hero_content--wrap">
-            <div id="model-conteiner">
-              <model-viewer id="model-earth" src="models/glass_hologram.glb" exposure="0.5" disable-zoom disable-tap
-                shadow-intensity="0" autoplay shadow-softness="0" orbit-sensitivity="0.3">
-                <div class="progress-bar hide" slot="progress-bar">
-                  <div class="update-bar"></div>
+            <div id="models-container">
+              <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <model-viewer name="a" class="product-3d" src="./models/earth_hologram.glb" reveal="auto" autoplay
+                      camera-controls disable-zoom min-camera-orbit="auto 62deg auto"
+                      max-camera-orbit="auto 62deg auto">
+                    </model-viewer>
+                  </div>
+                  <div class="swiper-slide">
+                    <model-viewer name="a" class="product-3d" src="./models/fish_hologram.glb" reveal="auto" autoplay
+                      camera-controls disable-zoom min-camera-orbit="auto 62deg auto"
+                      max-camera-orbit="auto 62deg auto">
+                    </model-viewer>
+                  </div>
+                  <div class="swiper-slide">
+                    <model-viewer name="a" class="product-3d" src="./models/holofan.glb" reveal="auto" autoplay
+                      camera-controls disable-zoom min-camera-orbit="auto 62deg auto"
+                      max-camera-orbit="auto 62deg auto">
+                    </model-viewer>
+                  </div>
                 </div>
-              </model-viewer>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+              </div>
             </div>
             <h1 class="hero_h1" style="margin-bottom:40px ;">3D VISUALS REIMAGINED</h1>
             <br>
@@ -663,52 +681,16 @@
             </div>
           </div>
         </a>
+        
       </div>
-      <div id="models-container">
-        <div class="swiper mySwiper">
-          <div id="model-box" class="swiper-wrapper">
-            <div class="swiper-slide">
-              <model-viewer name="a" class="product-3d" 
-              src="./models/earth_hologram.glb"
-              reveal="auto"
-              autoplay camera-controls disable-zoom
-              min-camera-orbit="auto 62deg auto"
-              max-camera-orbit="auto 62deg auto">
-            </model-viewer>
-            <div class="buy-btn">
-                <h5>Buy On Sale</h5>
-            </div>
-            </div>
-            <div class="swiper-slide">
-              <model-viewer name="a" class="product-3d" 
-              src="./models/fish_hologram.glb"
-              reveal="auto"
-              autoplay camera-controls disable-zoom
-              min-camera-orbit="auto 62deg auto"
-              max-camera-orbit="auto 62deg auto">
-            </model-viewer>
-            <div class="buy-btn">
-                <h5>Buy On Sale</h5>
-            </div>
-            </div>
-            <div class="swiper-slide">
-              <model-viewer name="a" class="product-3d" 
+      <div id="model-conteiner">
+        <model-viewer name="a" class="product-3d" 
               src="./models/holofan.glb"
               reveal="auto"
               autoplay camera-controls disable-zoom
               min-camera-orbit="auto 62deg auto"
               max-camera-orbit="auto 62deg auto">
             </model-viewer>
-            <div class="buy-btn">
-                <h5>Buy On Sale</h5>
-            </div>
-            </div>
-
-
-
-          </div>
-          <div class="swiper-pagination"></div>
-        </div>
       </div>
   </div>
   <div id="s_id--1" class="s__target"></div>

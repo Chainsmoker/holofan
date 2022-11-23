@@ -1,11 +1,12 @@
+#model-conteiner model-viewer{
+    width: inherit;
+    height: inherit;
+}
 @media screen and (min-width:479px) {
 }
 #model-conteiner {
-    width: 100vw;
-    height: 100vh;
-    padding: 0 15vw;
-    position: absolute;
-    top: -30vh;
+    width: 350px;
+    height: 350px;
      }
 
 #lazy-load-poster{

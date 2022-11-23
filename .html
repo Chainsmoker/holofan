@@ -1,53 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Swiper demo</title>
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1"
+    />
+    <!-- Link Swiper's CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="./public/css/home/carrousel.css">
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Document</title>
-  <script src="/lox.js"></script>
-</head>
+    <!-- Demo styles -->
+    <style>
+      html,
+      body {
+        position: relative;
+        height: 100%;
+      }
 
-<body class="template-product supports-touch sticky-header usb-payment-font-loaded" data-center-text="true"
-  data-button_style="angled" data-type_header_capitalize="true" data-type_headers_align_text="true"
-  data-type_product_capitalize="true" data-swatch_style="round" data-aos-easing="ease-out-quad" data-aos-duration="400"
-  data-aos-delay="0" style="">
+      body {
+        background: #eee;
+        font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+        font-size: 14px;
+        color: #000;
+        margin: 0;
+        padding: 0;
+      }
 
+      
+    </style>
+  </head>
 
-
-
-  <div id="PageContainer" class="page-container">
-    <div class="transition-body">
-      <main class="main-content" id="MainContent">
-        <div id="shopify-section-product-template" class="shopify-section">
-          <div id="ProductSection-6626130428070" class="product-section" data-section-id="6626130428070"
-            data-section-type="product-template" data-product-handle="holofan-11inch"
-            data-product-title="HOLOFAN® - 3D Hologram Fan (11 INCH)" data-product-url="/products/holofan-11inch"
-            data-aspect-ratio="106.05000000000001"
-            data-img-url="//cdn.shopify.com/s/files/1/0522/6115/9078/products/AP109035-Edit_{width}x.jpg?v=1622757229"
-            data-inventory="true" data-enable-history-state="true">
-            <!-- "snippets/preorder-now-collection-item.liquid" was not rendered, the associated app was uninstalled -->
-
-
-          </div>
-
-          <div id="looxReviews" data-product-id="6626130428070" class="loox-reviews-default" data-upgraded="true"
-            style="height: 3666px;"><iframe id="looxReviewsFrame" title="Reviews"
-              src="https://loox.io/widget/NJZy1a8oN5/reviews/6626130428070?h=1666425137725" height="3666px" width="100%"
-              frameborder="0" scrolling="no" margin="0" style="overflow: hidden; height: 3666px; width: 100%;"></iframe>
-          </div>
+  <body>
+    <!-- Swiper -->
+    <div id="models-container">
+      <div class="swiper mySwiper">
+        <div class="swiper-slide">
+          <model-viewer name="a" class="product-3d" src="./models/earth_hologram.glb" reveal="auto" autoplay
+            camera-controls disable-zoom min-camera-orbit="auto 62deg auto"
+            max-camera-orbit="auto 62deg auto">
+          </model-viewer>
         </div>
-
-
-
-
-
-
-      </main>
+        <div class="swiper-slide">
+          <model-viewer name="a" class="product-3d" src="./models/fish_hologram.glb" reveal="auto" autoplay
+            camera-controls disable-zoom min-camera-orbit="auto 62deg auto"
+            max-camera-orbit="auto 62deg auto">
+          </model-viewer>
+        </div>
+        <div class="swiper-slide">
+          <model-viewer name="a" class="product-3d" src="./models/holofan.glb" reveal="auto" autoplay
+            camera-controls disable-zoom min-camera-orbit="auto 62deg auto"
+            max-camera-orbit="auto 62deg auto">
+          </model-viewer>
+        </div>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+      </div>
     </div>
-  </div>
 
-</body>
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
 
+    <!-- Initialize Swiper -->
+<script src="./public/js/home/components/swipper.js"></script>
+<script type="module" src="public/js/modules/model-viewer.js"></script>
+
+  </body>
 </html>
