@@ -43,6 +43,7 @@
   <link rel="stylesheet" href="./public/css/home/components/testimonials.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
   <link rel="stylesheet" href="./public/css/home/carrousel.css">
+  <link rel="stylesheet" href="./public/css/splash.css">
 
   <!--=============== Styles ===============-->
 
@@ -53,6 +54,32 @@
 </head>
 
 <body>
+  <div class="splash">
+    <div class="splash-logo">
+      <img src="./public/images/logo.webp" alt="">
+    </div>
+    <div class="text-container">
+      <h3>Lorem ipsum dolor sit amet.</h3>
+      <h1>3D Visuals reimagined</h1>
+      <p>Experience a cutting edge technology that brings your visual content to life. </p>
+      <a data-w-id="4adf008a-d951-de00-f4cf-aef314cd57d5" href="#" class="btn_wrap w-inline-block btn-explore" style="margin-top: 30px;">
+        <div style="opacity: 1;" class="btn_txt">EXPLORE THE FUTURE</div>
+        <img
+          src="https://global-uploads.webflow.com/6218b09ec1cd76c58f838521/6218f670693ffdbc6901e965_mstar%20arrow.svg"
+          loading="lazy" alt="arrow" class="btn_arrow">
+        <div class="btn_circle is--2">
+          <div class="c_holder">
+            <div class="c_block1 is--tl"></div>
+            <div class="c_block1 is--bl"></div>
+            <div class="c_block1 is--tr"></div>
+            <div class="c_block1 is--br"></div>
+          </div>
+        </div>
+      </a>
+    </div>
+    <canvas id="canvas"></canvas>
+  </div>
+  
   <div id="hero"></div>
   <div data-animation="default" data-collapse="all" data-duration="200" data-easing="ease-out-expo"
     data-easing2="ease-out-expo" data-no-scroll="1" role="banner" class="nav w-nav">
@@ -446,7 +473,7 @@
   <!-- Audio -->
 
   <!-- Loading -->
-  <div class="preloader">
+  <div class="preloader2">
     <div id="w-node-ba7dbc5e-fca8-9a02-8978-d0f9f4f65a62-f4f65a61" class="preloader_img--wrap">
       <div class="p_img" data-w-id="a0060101-d035-f382-d8ac-b5325d1f0029" data-animation-type="lottie" data-loop="1"
         data-direction="-1" data-autoplay="1" data-is-ix2-target="0" data-renderer="svg"
@@ -1358,6 +1385,7 @@
     <script src="public/js/modules/threejs/shader-pass.js"></script>
     <script src="public/js/modules/threejs/film-shader.js"></script>
     <script src="public/js/home/scene/smoke.js"></script>
+    <script type="module" src="./public/js/splash.js"></script>
 
     <!--NO SE USA-->
     <!--
