@@ -4269,7 +4269,8 @@ blockquote {
 
 .team_name {
   font-size: 1.5em;
-  font-weight: 700
+  font-weight: 700;
+  text-transform: uppercase;
 }
 
 .team_role {
@@ -7315,6 +7316,10 @@ blockquote {
   color: #2298ff;
 }
 
+.nav_link--active {
+  color: #2298ff;
+}
+
 .nav-dropdown {
   font-size: 1.5rem;
   display: flex;
@@ -7330,7 +7335,7 @@ blockquote {
 }
 
 .nav-dropdown-link:hover>.nav-dropdown {
-  height: 150px;
+  height: 250px;
 }
 
 @media (max-width: 800px) {

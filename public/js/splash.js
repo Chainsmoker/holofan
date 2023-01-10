@@ -1,18 +1,10 @@
 import { AdditiveBlending, BufferAttribute, BufferGeometry, CanvasTexture, Color, PerspectiveCamera, Points, RawShaderMaterial, Scene, WebGLRenderer } from "https://cdn.skypack.dev/three@0.136.0"
-import { OrbitControls } from "https://cdn.skypack.dev/three@0.136.0/examples/jsm/controls/OrbitControls"
+
 import GUI from "https://cdn.skypack.dev/three@0.136.0/examples/jsm/libs/lil-gui.module.min.js"
 import { TWEEN } from "https://cdn.skypack.dev/three@0.136.0/examples/jsm/libs/tween.module.min.js"
 
-
-
-console.clear()
-// ------------------------ //
-// SETUP
-
 const count = 128 ** 2
-
 const scene = new Scene()
-
 const camera = new PerspectiveCamera(
   60, innerWidth / innerHeight, 0.1, 100
 )
@@ -21,9 +13,6 @@ renderer.setSize(innerWidth, innerHeight)
 renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2))
 
 camera.position.set(0, 0, 3)
-
-// ------------------------ //
-// STAR ALPHA TEXTURE
 
 const ctx = document.createElement("canvas").getContext("2d")
 ctx.canvas.width = ctx.canvas.height = 32
@@ -45,11 +34,6 @@ ctx.fillStyle = grd
 ctx.fillRect(0, 0, 32, 32)
 
 const alphaMap = new CanvasTexture(ctx.canvas)
-
-
-
-// ------------------------ //
-// GALAXY
 
 const galaxyGeometry = new BufferGeometry()
 
@@ -75,11 +59,8 @@ galaxyGeometry.setAttribute(
   "seed", new BufferAttribute(galaxySeed, 3)
 )
 
-
-
 const innColor = new Color("#197DFF")
 const outColor = new Color("#1F427A")
-
 const galaxyMaterial = new RawShaderMaterial({
 
   uniforms: {
@@ -196,11 +177,6 @@ galaxy.material.onBeforeCompile = (shader) => {
 }
 scene.add(galaxy)
 
-
-
-// ------------------------ //
-// UNIVERSE
-
 const universeGeometry = new BufferGeometry()
 
 const universePosition = new Float32Array(count * 3 / 2)
@@ -223,8 +199,6 @@ universeGeometry.setAttribute(
 universeGeometry.setAttribute(
   "size", new BufferAttribute(universeSize, 1)
 )
-
-
 
 const universeMaterial = new RawShaderMaterial({
 
@@ -326,11 +300,6 @@ universe.material.onBeforeCompile = (shader) => {
 }
 scene.add(universe)
 
-
-
-// ------------------------ //
-// GUIs
-
 const gui = new GUI().close()
 const u = galaxyMaterial.uniforms
 u.uSize.value = 1.1
@@ -360,11 +329,6 @@ gui.addColor({ color: outColor.getHexString()}, "color")
   const { r, g, b } = new Color(hex)
   u.uColorOut.value = [ r, g, b ]
 })
-
-
-
-// ------------------------ //
-// ANIMATION
 
 new TWEEN.Tween({
   radius: 0,
@@ -399,11 +363,6 @@ new TWEEN.Tween({
 .onComplete(() => gui.open())
 .start()
 
-
-
-// ------------------------ //
-// LOOPER
-
 const t = 0.001
 renderer.setAnimationLoop(() => {
   galaxyMaterial.uniforms.uTime.value += t / 2
@@ -411,11 +370,6 @@ renderer.setAnimationLoop(() => {
   TWEEN.update()
   renderer.render(scene, camera)
 })
-
-
-
-// ------------------------ //
-// HELPERS
 
 addEventListener("resize", () => {
   camera.aspect = innerWidth / innerHeight

@@ -47071,3 +47071,14 @@ Webflow.require("ix2").init({
     ],
   },
 });
+
+let open = false
+document.querySelector(".menu_line--wrap").addEventListener("click", ()=>{
+  if (open){
+    document.querySelector(".nav_soc--list").style.display = "block"
+    open = false
+    return
+  }
+  document.querySelector(".nav_soc--list").style.display = "none"
+  open = true
+})

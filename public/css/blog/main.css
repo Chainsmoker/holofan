@@ -25,3 +25,39 @@
     }
 
 }
+
+.blog-img {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 30px 0;
+}
+
+.blog-img img {
+  width: 70%;
+  height: 700px;
+  object-fit: cover;
+}
+.elrond_text--wrap h3 {
+  text-transform: uppercase;
+}
+
+.elrond_text--wrap {
+  margin: 50px auto;
+}
+
+.back-blog a {
+  background-color: #46A29F;
+  height: 50px;
+  padding: 10px;
+  display: inline-block;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  transform: skew(-10deg);
+  font-size: 1rem;
+}
+
+.back-blog {
+  width: 100%;
+  text-align: center;
+}
