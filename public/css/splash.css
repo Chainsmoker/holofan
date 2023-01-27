@@ -59,6 +59,7 @@
   letter-spacing: 2px;
   font-size: 13px;
   display: flex;
+  padding-left: 0;
   gap: 20px;
   margin-top: 30px;
   align-items: center;
